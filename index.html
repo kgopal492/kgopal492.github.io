@@ -63,7 +63,7 @@
             </h1>
           </div>
           <div class="col-lg-8 mx-auto">
-              <b><p class="text-faded mb-5">Computer Engineering & Computer Science 2020</p></b>
+              <b><p class="text-faded mb-5">Computer Engineering & Computer Science, May 2020</p></b>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i></a>
           </div>
@@ -80,13 +80,15 @@
           </div>
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading color1 about-header">
-                A little more about me...
+                About Me
             </h2>
-            <p class="text-faded mb-4 about-text">Hello, I'm Krishna! I was born in India, but I grew up all over the United States, in Pittsburgh, Memphis, and Milwaukee. Now in Los Angeles, I am a sophomore studying computer engineering and computer science at the University of Southern California.
+            <p class="text-faded mb-4 about-text">Hello, my name's Krishna! I was born in India, but since moving to America at 3 months old, I've lived all over the United States, in Pittsburgh, Memphis, and Milwaukee. Now in Los Angeles, I am a junior studying computer engineering and computer science at the University of Southern California.
             <br><br>
-            Last summer, I worked as an Instructor at iD Tech Camps, where I taught middle and high school students how to code. Currently, as a Course Producer for the Viterbi School of Engineering, I mentor students in the course Introduction to Programming at USC.
+            This past summer, I was an Information Technology Intern at FedEx, where I worked on developing a continuous integration, continous delivery pipeline for the software quality engineering team, using Docker for containerization and Jenkins as the pipeline orchestrator. My intern project was well received by FedEx employees, and we won our FedEx IT Intern overall Director's Choice Award.
             <br><br>
-            I am passionate about both software and hardware engineering, and I'm excited to work on any projects that incorporate the two. Check out some of the projects I've previously worked on below!
+            While I love learning about technology, I also love passing over my knowledge and experience to others as a teacher. Currently, I am a TA for the course Introduction to Embedded Systems at USC, and I've also previously TA'd the course Introduction to Programming. Last summer, I worked as an Instructor at iD Tech Camps, where I taught middle and high school students how to code.
+            <br><br>
+            I love working as in both software and hardware development. I am currently seeking an internship for Summer 2019 in backend development, data science, or hardware engineering.
             </p>
           </div>
         </div>
@@ -97,7 +99,43 @@
     <section class="p-0" id="portfolio">
       <div class="container-fluid p-0">
         <div class="row no-gutters">
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" data-toggle="modal" data-target="#baemax-modal">
+              <img class="img-fluid" src="img/portfolio/thumbnails/baemax.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Baemax
+                  </div>
+                  <div class="project-category text-faded">
+                    Alexa Skill/Mobile App
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div id="baemax-modal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content bg-dark">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Baemax</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="modal-image" src="img/portfolio/thumbnails/baemax.jpg">
+                  </div>
+                  <div class="modal-footer">
+                    <p>
+                        Baemax is based on the Disney robot from Big Hero 6 - Baymax. Much like the Disney robot, our Baemax is a personal healthcare assistant. It is an Alexa Skill that allows the user of the Amazon Echo Dot to describe health symptoms and receive a diagnosis using a health API. Additionally, our applicaiton receives health data from an iOS application on the user's cellphone, and states the user's health statistics on command. I worked on retrieving, parsing, and transferring the health data using Apple's HealthKit in a Swift application, and sending that information to the Amazon Echo Dot.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" data-toggle="modal" data-target="#fudget-modal">
               <img class="img-fluid" src="img/portfolio/thumbnails/fudget.jpeg" alt="">
               <div class="portfolio-box-caption">
@@ -160,7 +198,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" data-toggle="modal" data-target="#scatalog-modal">
               <img class="img-fluid" src="img/portfolio/thumbnails/computer.jpeg" alt="">
               <div class="portfolio-box-caption">
@@ -228,7 +266,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" data-toggle="modal" data-target="#viperzzz-modal">
               <img class="img-fluid" src="img/portfolio/thumbnails/viperzzz.jpg" alt="">
               <div class="portfolio-box-caption">
@@ -288,7 +326,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" data-toggle="modal" data-target="#makers-modal">
               <img class="img-fluid" src="img/portfolio/thumbnails/makers.png" alt="">
               <div class="portfolio-box-caption">
@@ -342,7 +380,17 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-6 col-md-6 text-center">
+          <div class="col-lg-4 col-md-4 text-center">
+            <div class="service-box mt-5 mx-auto">
+                <div class="experience-logo-box">
+                    <img class = "experience-logo" src="img/experience/fedex_logo.jpg">
+                </div>
+                <h3 class="mb-3">IT Intern</h3>
+              <p class="text-muted mb-0">Jun. 2018 – Aug 2018</p>
+              <p class="experience-description">I developed a CI/CD pipeline that used Docker for containerization and Jenkins to orchestrate the pipeline. My intern team introduced containerization to the software quality engineering team's automated pipeline. Our project won the mid-internship overall IT Director Review Board. We additionally explored the concept of spawning environments on demand using Docker to replicate unavailable dependencies. We demonstrated that testing delays at FedEx could be reduced to virtually nothing with the containerization of applications.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 text-center">
             <div class="service-box mt-5 mx-auto">
                 <div class="experience-logo-box">
                     <img class = "experience-logo" src="img/experience/iDTechLogo.png">
@@ -352,7 +400,7 @@
               <p class="experience-description">As an instructor at this technology summer camp, I taught middle and high schoolers the fundamentals of programming. I created lesson plans, facilitated learning, and guided each student to the completion of a personal programming project. The courses I taught covered basic game development (Tynker), programming (C++, JavaScript, Python), and cryptography and cybersecurity.</p>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 text-center">
+          <div class="col-lg-4 col-md-4 text-center">
             <div class="service-box mt-5 mx-auto">
               <div class="experience-logo-box">
               <img class = "experience-logo" src="img/experience/usc_viterbi_logo.png">
@@ -385,7 +433,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://drive.google.com/file/d/1Bu_A8XLVtEU-6sZpt0FASRvrMKMCGMzC/view?usp=sharing" class="btn btn-3 btn-lg">
+                <a href="https://drive.google.com/file/d/175nSuQEJpCW3I01k0B_mUM3EOSX0J-u9/view?usp=sharing" class="btn btn-3 btn-lg">
                   <i class="fa fa-file-text fa-fw"></i>
                   <span class="network-name">Resume</span>
                 </a>
